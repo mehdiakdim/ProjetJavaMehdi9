@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetjava.Scene1Controller">
+    <children>
+        <AnchorPane layoutX="-1.0" prefHeight="400.0" prefWidth="291.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="309.99999999999994" AnchorPane.topAnchor="0.0">
+            <children>
+                <Text layoutX="59.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager's App">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Text>
+                <Text layoutX="33.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="you can use this app to manage managers" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="309.0" prefHeight="400.0" prefWidth="291.0">
+            <children>
+                <Text layoutX="30.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Account" AnchorPane.bottomAnchor="328.984375" AnchorPane.leftAnchor="29.6484375" AnchorPane.rightAnchor="159.68489583333331" AnchorPane.topAnchor="49.734375">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+                <PasswordField fx:id="passwordId" layoutX="30.0" layoutY="230.0" AnchorPane.bottomAnchor="144.66666666666666" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="111.99999999999997" AnchorPane.topAnchor="230.0" />
+                <Label layoutX="30.0" layoutY="124.0" text="Username" AnchorPane.bottomAnchor="258.6666666666667" AnchorPane.leftAnchor="30.000000000000007" AnchorPane.rightAnchor="207.99999999999997" AnchorPane.topAnchor="124.0" />
+                <Label layoutX="30.0" layoutY="207.0" text="Password" AnchorPane.bottomAnchor="175.66666666666666" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="211.33333333333331" AnchorPane.topAnchor="207.0" />
+                <TextField fx:id="usernameId" layoutX="30.0" layoutY="154.0" AnchorPane.bottomAnchor="220.66666666666666" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="111.99999999999997" AnchorPane.topAnchor="154.0" />
+                <Hyperlink layoutX="180.0" layoutY="341.0" text="Forget Passwod" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="19.333333333333314" AnchorPane.topAnchor="341.0" />
+                <Button layoutX="94.0" layoutY="298.0" mnemonicParsing="false" text="Login" AnchorPane.bottomAnchor="76.66666666666667" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="151.33333333333331" AnchorPane.topAnchor="298.0" onAction="#onLoginAE" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
